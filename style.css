@@ -1,0 +1,223 @@
+.accordion-btn-custom {
+    background-color: ghostwhite !important;
+    padding: 25px 25px;
+    border-radius: 10px !important;
+}
+
+.accordion-btn-custom::after {
+    content: '';
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg>');
+    transition: all .4s;
+}
+
+.accordion-btn-custom:not(.collapsed)::after{
+    content: '';
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16"><path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/></svg>');
+}
+
+.accordion-custom {
+    border-color: none;
+}
+
+.footer-font{
+    font-size: 13px;
+}
+
+/*form padding*/
+.form-p{
+    padding: 15px !important;
+}
+.form-btn-p{
+    padding: 13px;
+}
+
+.font-size{
+    font-size: 12px;
+}
+
+/*Responsive code for small device*/
+@media only screen and (max-width: 576px) {
+    .slider-title {
+        font-size: 18px !important;
+    }
+
+    .img{
+        width: 50px;
+    }
+
+    .slider-p {
+        font-size: 10px !important;
+        padding: 0 0 !important;
+    }
+
+    .width-70 {
+        width: 70% !important;
+    }
+
+    .slider-input {
+        padding: 5px 10px !important;
+        font-size: 10px !important;
+        height: 30px !important;
+    }
+
+    .slider-btn {
+        font-size: 8px;
+    }
+
+    /*LPA area*/
+    .lpa-p {
+        width: 90% !important;
+    }
+
+    /*card*/
+    .border-card {
+        border: 1px solid #EFF0F3;
+        border-top: 1px solid #EFF0F3 !important;
+        border-bottom: 1px solid #EFF0F3 !important;
+    }
+
+    .card-gap {
+        gap: 1rem !important;
+    }
+
+    .card-height {
+        height: 25rem;
+    }
+
+    .sm-gap {
+        gap: 30px;
+    }
+
+    /*carousel*/
+    .carousel-w {
+        width: 100% !important;
+    }
+
+    .carousel-user {
+        max-width: 50px !important;
+    }
+
+    .carousel-title {
+        font-size: 13px;
+    }
+
+    .carousel-st {
+        font-size: 10px;
+    }
+
+    .display-sm-none {
+        display: none;
+    }
+
+   /*Footer*/
+   .footer-w{
+    width: 100%;
+   }
+}
+
+/*Responsive code for medium device*/
+@media only screen and (min-width:578px) and (max-width: 768px) {
+    .slider-title {
+        font-size: 20px !important;
+    }
+
+    .gap-md{
+        gap: 40px;
+    }
+    .slider-p {
+        font-size: 13px !important;
+        padding: 0 0 !important;
+    }
+
+    .width-70 {
+        width: 70% !important;
+    }
+
+    .slider-input {
+        padding: 5px 10px !important;
+        font-size: 10px !important;
+        height: 35px !important;
+    }
+
+    .slider-btn {
+        font-size: 10px;
+    }
+
+
+    /*carousel*/
+    .carousel-w {
+        width: 100% !important;
+    }
+
+    .display-sm-none {
+        display: none;
+    }
+
+    /*qsk part*/
+    .sm-gap {
+        gap: 30px;
+    }
+
+    /*Contact us*/
+    .p-md{
+        width: 75% !important;
+    }
+
+    /*Footer*/
+   .footer-w{
+    width: 100%;
+  
+   }
+}
+
+/*Responsive code for Large device*/
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .margin-y {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .gap-md{
+        gap: 30px;
+    }
+
+    /*carousel*/
+    .carousel-w {
+        width: 100% !important;
+    }
+
+    .display-sm-none {
+        display: none;
+    }
+
+    /*card responsive*/
+    .border-lg-card{
+        border-left: 1px solid #EFF0F3 !important;
+        border-bottom: 1px solid #EFF0F3 !important;
+        border-top: none !important;
+        border-right: none !important;
+    }   
+    .border-lg-none{
+       border-bottom: 1px solid #EFF0F3 !important ;
+        border-left: none !important;
+        border-right: none !important;
+    }
+    .b-b-none{
+        border-bottom: none !important;
+    }
+
+
+}
+
+/*Footer*/
+.footer-w{
+    width: 100%;
+   }
+
+/*Responsive code for Extra large device*/
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    .margin-y {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+}
